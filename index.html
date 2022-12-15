@@ -10,33 +10,42 @@
     <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
     <script>LA.init({id: "JtBK30uu7QcxMGIt",ck: "JtBK30uu7QcxMGIt"})</script>
 	<script type="text/javascript" charset="UTF-8">
-    var ybty_link = {    
-        kyApp:     'https://www.j1st7.com:9007/entry/register/?i_code=',
-        kytyApp:   'https://www.j1st7.com:9007/entry/register/?i_code=',
-        kyPc:      'https://www.j1st7.com:9007/entry/register/?i_code=',
-        kyH5:      'https://www.j1st7.com:9007/entry/register/?i_code=',
-        kf:        'https://www.j1st7.com:9007/entry/register/?i_code=',
+    var ybty_link1 = {    
+        kyApp:     'https://www.oeadi.com:9132/entry/register/?i_code=85314677',
+        kytyApp:   'https://www.oeadi.com:9132/entry/register/?i_code=85314677',
+        kyPc:      'https://www.owr38.com:8663/register/?i_code=85314677',
+        kyH5:      'https://www.oeadi.com:9132/entry/register/?i_code=85314677',
+        kf:        'https://www.owr38.com:8663/register/?i_code=85314677',
     }
-    var codes = new Array( "85314677");
-    var code = codes[Math.floor(codes.length*Math.random())];
+    
+     var ybty_link2 = {    
+        kyApp:     'https://download-agenth5.y5d1ogc.com:30000',
+        kytyApp:   'https://download-agenth5.y5d1ogc.com:30000',
+        kyPc:      'https://www.365wmvip1366.com:35524',
+        kyH5:      'https://agent-apph5.365wmvip2739.com:30892',
+        kf:        'https://www.365wmvip1366.com:35524',
+    }
+    
+    var codes = new Array(ybty_link1, ybty_link2);
+    var ybty_link = codes[Math.floor(codes.length*Math.random())];
     
     function ybty_visit(key) {
-        window.location.href = ybty_link[key]+code;
+        window.location.href = ybty_link[key];
     }
     function ybty_visit_newopen(key) {
-        window.open(ybty_link[key]+code)
+        window.open(ybty_link[key])
     }
     function ybty_kf(url) {
         window.open(url)
     }
     function getMyUrl(key){
-       return ybty_link[key]+code;
+       return ybty_link[key];
     }
     function deviceLYRegist(){
        if(window.innerWidth<768){
-          window.open(ybty_link['kyH5']+code); 
+          window.open(ybty_link['kyH5']);
         }else{
-          window.open(ybty_link['kyPc']+code); 
+          window.open(ybty_link['kyPc']);
         }
     }
 	</script>
